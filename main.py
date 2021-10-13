@@ -5,7 +5,7 @@ import os
 import argparse
 import matplotlib.pyplot as plt
 
-bot = telebot.TeleBot("2043505952:AAEZkVq1gj4EDFSBzzK1xITMa_Bsmbrgrf8", parse_mode=None)
+bot = telebot.TeleBot("", parse_mode=None)
 bot.remove_webhook()
 
 @bot.message_handler(content_types=['document'])
